@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Transform Zoom bei Mouseover</title>
+<meta charset="ISO-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="Copyright" content="Thomas Frei-Herrmann">
+<meta name="Keywords" content="NetObjects Fusion 2013, 12, 11, 10, NOF Hilfe, NOF Support, Thomas Frei-Herrmann, Tommy, NOF Tutorials, Foto-Manager, jQuery, Hilfe-Seite zu NetObjects Fusion, Hilfestellung und Anleitungen im NOF-Forum">
+<meta name="Robots" content="index, follow">
+<meta name="Language" content="DE">
+<meta name="Description" content="NetObjects Fusion Webdesign-Software und integrierte NOF-Komponenten. Tutorials und Hilfe von Tommy rund um NOF und Websites im Allgemeinen.">
+<meta name="Author" content="Thomas Frei-Herrmann">
+<meta name="Generator" content="NetObjects Fusion 2013 for Windows">
+
+<style>
+img.zoom {
+ transition: transform 0.8s;
+ /*-moz-transition: transform 0.8s;
+ -webkit-transition: transform 0.8s;
+ -o-transition: transform 0.8s;
+ -ms-transition: transform 0.8s;*/
+}
+img.zoom:hover {
+/*img.zoom {*/
+ /*cursor: zoom-in; 
+ cursor: -moz-zoom-in;
+ cursor: -webkit-zoom-in;*/
+ transform: scale(4.0, 4.0);
+ /*-moz-transform: scale(4.0, 4.0);
+ -webkit-transform: scale(4.0, 4.0);
+ -o-transform: scale(4.0, 4.0);
+ -ms-transform: scale(4.0, 4.0);*/
+}
+</style>
+
+<!--<style type="text/css">
+html {overflow-y: scroll;}
+</style>-->
+
+<!--<script type="text/javascript" src="../jquery.js">
+</script>
+<script type="text/javascript" src="../navbars.js">
+</script>-->
+<link rel="stylesheet" type="text/css" href="../fusion.css">
+<link rel="stylesheet" type="text/css" href="../style.css">
+<link rel="stylesheet" type="text/css" href="../site.css">
+
+<style type="text/css" title="NOF_STYLE_SHEET">
+
+body { margin:0px; text-align: center }
+.nof-centerContent { margin:0px auto; text-align: left; width:990px }div#LayoutSearchFormLYR { position:relative; background-image: url(../Suche.jpg);  top:0; left:0; width:178px; height:35px; z-index:1; }
+div#ButtonSearchLYR { position:absolute; top:6px; left:133px; width:42px; height:21px; z-index:1 }
+div#search_expLYR { position:absolute; top:7px; left:37px; width:96px; height:19px; z-index:2 }
+
+</style>
+
+<!--<script type="text/javascript" src="./css-transform_nof.js">
+</script>-->
+</head>
+<body class="nof-centerBody">
+  <div class="nof-centerContent">
+    <div class="nof-positioning">
+  
+      <div id="Text163" class="nof-positioning TextObject" style="width: 990px; margin-top: 45px; ">
+        <p style="margin-bottom: 0px;"><b><span style="font-weight: bold;"><b><span style="font-weight: bold;">CSS-Transform Zoom bei Mouseover</span></b></span></b></p>
+      </div>
+      <div id="Text195" class="nof-positioning TextObject" style="width: 990px; margin-top: 54px; ">
+        <p style="text-align: center;">Mouseover Transform Vergr&ouml;&szlig;erung - funktioniert nicht im IE8 oder &auml;lter - im IE 10 und h&ouml;her sowie im FF mit weichem Zoom</p>
+        <p style="text-align: center; margin-bottom: 0px;"><img src="bilder/01SchoenebergWittenbergplatzFOTO.jpg" class="zoom" title="Elefant in Afrika" width="96" height="72">
+&nbsp;&nbsp;&nbsp;&nbsp; <img src="bilder/02SchoenebergNollendorfplatzFOTO.jpg" class="zoom" title="Gazellen in Afrika" width="96" height="72">&nbsp;&nbsp;&nbsp;&nbsp; <img src="bilder/03SchoenebergViktoria-Luise-PlatzFOTO.jpg" class="zoom" title="Löwen in Afrika" width="96" height="72">&nbsp;&nbsp;&nbsp;&nbsp; <img src="bilder/07SchoenebergRudolph-Wilde-ParkFOTO.jpg" class="zoom" title="Vogel in Afrika" width="96" height="72"></p>
+      </div>
+      <div id="Text196" class="nof-positioning TextObject" style="width: 990px; margin-top: 89px; ">
+        <p style="margin-bottom: 0px;">Hier ist die <b><span style="font-weight: bold;">CSS</span></b> f&uuml;r diesen Effekt. Hierbei ist z.B. <b><span style="color: rgb(0,0,255); font-weight: bold;">0.8s</span></b> die Zeit des Zooms und <b><span style="color: rgb(0,0,255); font-weight: bold;">4.0</span></b>,<b><span style="color: rgb(0,0,255); font-weight: bold;">4.0</span></b> die Vergr&ouml;&szlig;erung in der Breite und H&ouml;he - hier also vierfach.</p>
+      </div>
+      <div id="Text197" class="nof-positioning TextObject" style="width: 265px; margin-top: 29px; margin-left: 6px; background-color: rgb(192,192,192); ">
+        <p style="margin-bottom: 0px;">&lt;style&gt;<br>img.<span style="color: rgb(0,0,255);">zoom</span> {<br>&nbsp;transition: transform <b><span style="color: rgb(0,0,255); font-weight: bold;">0.8s</span></b>;<br>&nbsp;-moz-transition: transform 0.8s;<br>&nbsp;-webkit-transition: transform 0.8s;<br>&nbsp;-o-transition: transform 0.8s;<br>&nbsp;-ms-transition: transform 0.8s;<br>}<br>img.<span style="color: rgb(0,0,255);">zoom</span>:hover {<br>&nbsp;cursor: zoom-in; <br>&nbsp;cursor: -moz-zoom-in;<br>&nbsp;cursor: -webkit-zoom-in;<br>&nbsp;transform: scale(<b><span style="font-weight: bold;"><span style="color: rgb(0,0,255);">4.0</span>, <span style="color: rgb(0,0,255);">4.0</span></span></b>);<br>&nbsp;-moz-transform: scale(4.0, 4.0);<br>&nbsp;-webkit-transform: scale(4.0, 4.0);<br>&nbsp;-o-transform: scale(4.0, 4.0);<br>&nbsp;-ms-transform: scale(4.0, 4.0);<br>}<br>&lt;/style&gt;</p>
+      </div>
+      <div id="Text199" class="nof-positioning TextObject" style="width: 990px; margin-top: 64px; ">
+        <p style="margin-bottom: 0px;">Den Source-Code f&uuml;r die Bilder habe ich direkt in den <a href="http://www.tommyherrmanndesign.com/nof/HTML-Code/">HTML-Code Editor</a> eines <b><span style="font-weight: bold;">Textfeldes</span></b> eingetragen, wobei hier das Bild dann die <span style="color: rgb(0,0,255);">class=&#8221;zoom&#8221;</span> aus der CSS oben erh&auml;lt und die Anzeige des Thumbnails durch die Angabe der <b><span style="color: rgb(0,0,255); font-weight: bold;">Gr&ouml;&szlig;e</span></b> bestimmt wird. Verwendet also Bilder ca. in der Gr&ouml;&szlig;e die Ihr zoomen lasst, damit diese beim Zoomen nicht unscharf werden.</p>
+      </div>
+      <div id="Text198" class="nof-positioning TextObject" style="width: 633px; margin-top: 24px; background-color: rgb(192,192,192); ">
+        <p style="margin-bottom: 0px;">&lt;img src=&quot;../images/Afrika-001.jpg&quot; <span style="color: rgb(0,0,255);">class=&quot;zoom&quot;</span> title=&quot;Elefant in Afrika&quot; <b><span style="color: rgb(0,0,255); font-weight: bold;">width=&quot;96&quot; height=&quot;72&quot;</span></b>&gt;</p>
+      </div>
+      <div class="nof-positioning" style="width: 990px; margin-top: 109px; ">
+        <div id="LayoutBereich4" class="nof-lyr nof-clearfix" style="min-height: 183px;">
+          <div class="nof-positioning">
+            <div class="nof-positioning" style="line-height: 0px; width: 990px; "><img id="Bild4" height="15" width="990" src="../Linie.jpg" alt="" style="border: 0;"></div>
+            <div id="Text162" class="nof-positioning TextObject" style="width: 990px; margin-top: 30px; "><div align="center">
+              <p style="text-align: center;"><span style="font-size: 12px; color: rgb(61,63,67);">Tutorials von Thomas Frei-Herrmann</span></p>
+              <p style="text-align: center; margin-bottom: 0px;"><a href="http://www.tommyherrmanndesign.com/nof/seite-senden/"><span style="font-size: 10pt;">diese Seite weiter empfehlen</span></a><br>
+					<div id="google_translate_element"></div>
+					<script>
+						function googleTranslateElementInit() {
+			  				new google.translate.TranslateElement({
+		    					pageLanguage: 'de'
+				  			}, 'google_translate_element');
+						}
+					</script>
+					<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><br><p><a href="http://www.tommyherrmanndesign.com/nof/html/statistik.html"><img src="http://www.nof-tutorials.com/counter/counter.php" alt="Counter Statistik" style="border:1px dotted #657593;"></a></p>&nbsp;</p>
+              </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+ 

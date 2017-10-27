@@ -1,0 +1,156 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+DefaultDir=\\ACER-KLWD\Depot(R)\xampp\htdocs\BezirksKlangKarte
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+Extensions=*.*
+[Project tree]
+BezirksKlangKarte
+	-BezirksKlangKarte
+		-bilder
+			-korrigiert
+			-Originale
+				bilder\Originale\17MarienfeldeS-BahnFOTO.jpg
+				bilder\Originale\19MarienfeldeNotaufnahmelagerFOTO.jpg
+				bilder\Originale\1SchönebergWittenbergplatzFOTO.jpg
+				bilder\Originale\20MarienfeldeDorfkircheFOTO.jpg
+				bilder\Originale\21MarienfeldeFreizeitparkFOTO.jpg
+				bilder\Originale\22LichtenradeVolksparkFOTO.jpg
+				bilder\Originale\24LichtenradeGiebelpfuhlFOTO.jpg
+				bilder\Originale\2SchönebergNollendorfplatzFOTO.jpg
+				bilder\Originale\3SchönebergViktoria-Luise-PlatzFOTO.jpg
+				bilder\Originale\7SchönebergRudolph-Wilde-ParkFOTO.jpg
+			bilder\17MarienfeldeS-BahnFOTO.jpg
+			bilder\19MarienfeldeNotaufnahmelagerFOTO.jpg
+			bilder\1SchönebergWittenbergplatzFOTO.jpg
+			bilder\20MarienfeldeDorfkircheFOTO.jpg
+			bilder\21MarienfeldeFreizeitparkFOTO.jpg
+			bilder\22LichtenradeVolksparkFOTO.jpg
+			bilder\24LichtenradeGiebelpfuhlFOTO.jpg
+			bilder\2SchönebergNollendorfplatzFOTO.jpg
+			bilder\3SchönebergViktoria-Luise-PlatzFOTO.jpg
+			bilder\7SchönebergRudolph-Wilde-ParkFOTO.jpg
+		+css
+			css\template.css
+		-DATEN
+			DATEN\34373096-Mikrofon-mit-Kabel-Symbol-auf-wei-em-Hintergrund--Lizenzfreie-Bilder.jpg
+			DATEN\BezirksKarte TS groß mit Details.pdf
+			DATEN\BezirksKarte TS groß mit Details.psd
+			DATEN\BezirksKlangkarte Prototyp mit Punkten nummeriert.jpg
+			DATEN\BezirksKlangkarte Prototyp mit Punkten.jpg
+			DATEN\bk_51500_farbig !.pdf
+			DATEN\bk_51500_sw.pdf
+			DATEN\mikrofon.psd
+			DATEN\tempelhof_schoeneberg_ortsteile einfach.jpg
+			DATEN\Tempelhof-Schöneberg ganz einfach.jpg
+			DATEN\thumb_COLOURBOX10268163.jpg
+			DATEN\Thumbs.db
+			DATEN\wetransfer-b2d539.zip
+		-fonts
+			fonts\glyphicons-halflings-regular.eot
+			fonts\glyphicons-halflings-regular.svg
+			fonts\glyphicons-halflings-regular.ttf
+			fonts\glyphicons-halflings-regular.woff
+			fonts\glyphicons-halflings-regular.woff2
+		-images
+			images\_1.png
+			images\_10.png
+			images\_11.png
+			images\_12.png
+			images\_13.png
+			images\_14.png
+			images\_15.png
+			images\_16.png
+			images\_17.png
+			images\_18.png
+			images\_19.png
+			images\_2.png
+			images\_20.png
+			images\_21.png
+			images\_22.png
+			images\_23.png
+			images\_24.png
+			images\_25.png
+			images\_3.png
+			images\_4.png
+			images\_5.png
+			images\_6.png
+			images\_7.png
+			images\_8.png
+			images\_9.png
+			images\Abdeckung.png
+			images\BezirksKlangKarte.png
+			images\Bezirksklangkarte_atlas_.png
+			images\BezirksklangkarteHTML_atlas_P_.png
+			images\Ebene12.png
+			images\EinKlangkunstprojektvonThomasGerwin.png
+			images\LeichteFarben.png
+			images\PUNKTE.png
+			images\Schild.jpg
+		-komponente
+			komponente\ausschnitt_01.png
+			komponente\ausschnitt_02.png
+			komponente\ausschnitt_03.png
+			komponente\ausschnitt_04.png
+			komponente\ausschnitt_05.png
+			komponente\ausschnitt_06.png
+			komponente\ausschnitt_07.png
+			komponente\ausschnitt_08.png
+			komponente\ausschnitt_09.png
+			komponente\ausschnitt_10.png
+			komponente\ausschnitt_11.png
+			komponente\ausschnitt_12.png
+			komponente\ausschnitt_13.png
+			komponente\ausschnitt_14.png
+			komponente\ausschnitt_15.png
+			komponente\ausschnitt_16.png
+			komponente\ausschnitt_17.png
+			komponente\ausschnitt_18.png
+			komponente\ausschnitt_19.png
+			komponente\ausschnitt_20.png
+			komponente\ausschnitt_21.png
+			komponente\ausschnitt_22.png
+			komponente\ausschnitt_23.png
+			komponente\ausschnitt_24.png
+			komponente\ausschnitt_25.png
+			komponente\Bezirksklangkarte.jpg
+			komponente\BezirksklangkarteHTML.jpg
+			komponente\mikrofon.png
+			komponente\mikrofonb.png
+		-sounds
+			sounds\01SchoenebergWittenbergplatzFILE.mp3
+			sounds\02SchoenebergNollendorfplatzFILE.mp3
+			sounds\03SchoenebergViktoria-Luise-PlatzFILE.mp3
+			sounds\07SchoenebergRudolph-Wilde-ParkFILE.mp3
+			sounds\17MarienfeldeS-BahnFILE.mp3
+			sounds\19MarienfeldeNotaufnahmelagerFILE.mp3
+			sounds\20MarienfeldeDorfkircheFILE.mp3
+			sounds\21MarienfeldeFreizeitparkFILE.mp3
+			sounds\22LichtenradeVolksparkFILE.mp3
+			sounds\24LichtenradeGiebelpfuhlFILE.mp3
+		Änderungen.txt
+		Bezirksklangkarte.fla
+		Bezirksklangkarte.html
+		Bezirksklangkarte.js
+		BezirksklangkarteCC17.fla
+		BezirksklangkarteCC17.swf
+		BezirksklangkarteHTML.fla
+		BezirksklangkarteHTML.html
+		BezirksklangkarteHTML.js
+		index.html
+		test.html
+		Thumbs.db
+		transform.txt
+		transform2.html
+[Open project files]
+[Selected Project Files]
+Main=

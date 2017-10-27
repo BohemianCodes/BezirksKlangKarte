@@ -1,0 +1,443 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	height: 1920px; width: auto;
+	background-color: #0c2c7e;
+	background-image: url(../komponente/blauePunkte.png), url(../komponente/Bezirksklangkarte.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+}
+h1 {
+	font-size: 25px;
+	color: #0c2c7e;
+
+}
+
+#grundposition {	
+	position: relative;
+	width: 1080px;
+	height: 1920px;
+	margin: 0 auto 0 auto;
+}
+.bild {position:absolute;width: 300px;height: 220px;}
+.punkt {
+	background-image: url(../komponente/mikrofonb.png);
+	background-size: cover;
+	width: 25px;
+	height: 25px;	
+}
+.punkt a {
+	display: block;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}
+a {text-decoration: none;}
+a p {
+	height: auto;
+	width: 90px;
+	padding: 2px;
+	border: thin #CC0030 solid;
+	border-radius: 3px;
+	background-color: antiquewhite;
+	font-size: 0.9em;
+	line-height: 0.9em;
+	font-weight: 600;
+	text-align: left;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	color: #CC0030;	
+	margin: -5px 0 0 22px;
+	display: block;
+	box-shadow: 2px 2px 2px #555;
+}
+a p:hover {	
+	border: 5px #FD0004 solid;
+	border-radius: 5px;	
+}
+.pfeil {
+	width: 0;
+  	height: 0;
+	border-left: 20px solid transparent; 
+	border-right: 20px solid transparent;  
+	border-bottom: 150px solid #FED41E;
+}
+/*.punkt a:hover {
+	background-image: url(../komponente/mikrofon.png);	
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	margin: 0px 0 0 0px;
+}*/
+.punkt a img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 356px;
+	height: 360px;
+	z-index: 99;
+}
+.punkt a img:hover {
+	
+}
+
+
+/*~~~~~Position 1 ~~~~~~~~~~~~~~~~~~*/
+#position1 {
+	position: absolute;
+	left: 280px;
+	top: 80px;
+}
+#ausein1 {
+	display:none; 
+}
+
+/*~~~~~Position 2 ~~~~~~~~~~~~~~~~~~*/
+#position2 {
+	position: absolute;
+	left: 373px;
+	top: 115px;
+}
+#ausein2 {
+	display:none; 
+}
+
+/*~~~~~Position 3 ~~~~~~~~~~~~~~~~~~*/
+#position3 {
+	position: absolute;
+	left: 285px;
+	top: 175px;
+}
+#ausein3 {
+	display:none; 
+}
+
+/*~~~~~Position 4 ~~~~~~~~~~~~~~~~~~*/
+#position4 {
+	position: absolute;
+	left: 285px;
+	top: 175px;
+}
+#ausein4 {
+	display:none; 
+}
+/*~~~~~Position 5 ~~~~~~~~~~~~~~~~~~*/
+#position5 {
+	position: absolute;
+	left: 340px;
+	top: 710px;
+}
+#ausein5 {
+	display:none; 
+}
+/*~~~~~Position 6 ~~~~~~~~~~~~~~~~~~*/
+#position6 {
+	position: absolute;
+	left: 655px;
+	top: 344px;
+}
+#ausein6 {
+	display:none; 
+}
+
+/*~~~~~Position 7 ~~~~~~~~~~~~~~~~~~*/
+#position7 {
+	position: absolute;
+	left: 270px;
+	top: 353px;
+}
+#ausein7 {
+	display:none; 
+}
+
+/*~~~~~Position 8 ~~~~~~~~~~~~~~~~~~*/
+#position8 {
+	position: absolute;
+	left: 98px;
+	top: 443px;
+}
+#ausein8 {
+	display:none; 
+}
+
+/*~~~~~Position 9 ~~~~~~~~~~~~~~~~~~*/
+#position9 {
+	position: absolute;
+	left: 217px;
+	top: 480px;
+}
+#ausein9 {
+	display:none; 
+}
+
+/*~~~~~Position 10 ~~~~~~~~~~~~~~~~~~*/
+#position10 {
+	position: absolute;
+	left: 143px;
+	top: 505px;
+}
+#ausein10 {
+	display:none; 
+}
+
+/*~~~~~Position 11 ~~~~~~~~~~~~~~~~~~*/
+#position11 {
+	position: absolute;
+	left: 270px;
+	top: 353px;
+}
+#ausein11 {
+	display:none; 
+}
+
+/*~~~~~Position 12 ~~~~~~~~~~~~~~~~~~*/
+#position12 {
+	position: absolute;
+	left: 630px;
+	top: 622px;
+}
+#ausein12 {
+	display:none; 
+}
+
+/*~~~~~Position 13 ~~~~~~~~~~~~~~~~~~*/
+#position13 {
+	position: absolute;
+	left: 690px;
+	top: 635px;
+}
+#ausein13 {
+	display:none; 
+}
+
+/*~~~~~Position 14 ~~~~~~~~~~~~~~~~~~*/
+#position14  {
+	position: absolute;
+	left: 650px;
+	top: 650px;
+}
+#ausein14  {
+	display:none; 
+}
+
+/*~~~~~Position 15 ~~~~~~~~~~~~~~~~~~*/
+#position15 {
+	position: absolute;
+	left: 650px;
+	top: 970px;
+}
+#ausein15 {
+	display:none; 
+}
+
+/*~~~~~Position 16 ~~~~~~~~~~~~~~~~~~*/
+#position16 {
+	position: absolute;
+	left: 270px;
+	top: 353px;
+}
+#ausein16 {
+	display:none; 
+}
+
+/*~~~~~Position 17 ~~~~~~~~~~~~~~~~~~*/
+#position17 {
+	position: absolute;
+	left: 535px;
+	top: 1188px;
+}
+#ausein17 {
+	display:none; 
+}
+/*~~~~~Position 18 ~~~~~~~~~~~~~~~~~~*/
+#position18 {
+	position: absolute;
+	left: 270px;
+	top: 353px;
+}
+#ausein18 {
+	display:none; 
+}
+
+/*~~~~~Position 19 ~~~~~~~~~~~~~~~~~~*/
+#position19 {
+	position: absolute;
+	left: 490px;
+	top: 1228px;
+}
+#ausein19 {
+	display:none; 
+}
+/*~~~~~Position 20 ~~~~~~~~~~~~~~~~~~*/
+#position20 {
+	position: absolute;
+	left: 462px;
+	top: 1410px;
+}
+#ausein20 {
+	display:none; 
+}
+/*~~~~~Position 21 ~~~~~~~~~~~~~~~~~~*/
+#position21 {
+	position: absolute;
+	left: 515px;
+	top: 1535px;
+}
+#ausein21 {
+	display:none; 
+}
+/*~~~~~Position 22 ~~~~~~~~~~~~~~~~~~*/
+#position22 {
+	position: absolute;
+	left: 910px;
+	top: 1650px;
+}
+#ausein22 {
+	display:none; 
+}
+/*~~~~~Position 23 ~~~~~~~~~~~~~~~~~~*/
+#position23 {
+	position: absolute;
+	left: 270px;
+	top: 353px;
+}
+#ausein23 {
+	display:none; 
+}
+
+/*~~~~~Position 24 ~~~~~~~~~~~~~~~~~~*/
+#position24 {
+	position: absolute;
+	left: 792px;
+	top: 1735px;
+}
+#ausein24 {
+	display:none; 
+}
+
+/*~~~~~Position 25 ~~~~~~~~~~~~~~~~~~*/
+#position25 {
+	position: absolute;
+	left: 500px;
+	top: 1000px;
+}
+#ausein25 {
+	display:none; 
+}
+
+/*===========================================*/
+
+
+
+
+#restart {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	top: 1835px;
+	left: 975px;
+	background-image: url(../komponente/reset.png);
+	background-size: cover;
+}
+#restart:hover {
+	cursor: pointer;
+	background-image: url(../komponente/reset_rot.png);
+	background-size: cover;
+}
+#popcredits {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	top: 1835px;
+	left: 975px;
+	background-image: url(../komponente/credits.png);
+	background-size: cover;
+}
+#popcredits:hover {
+	cursor: pointer;
+	background-image: url(../komponente/credits_rot.png);
+	background-size: cover;
+}
+
+#credits {
+	display: block;
+	display: none;
+	background-color: bisque;
+	padding: 20px;
+	width: 590px;
+	height: auto;
+	position: absolute;
+	top: 690px;
+	left: 440px;
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.5);
+}
+.s1 {
+	color: black;
+	font-family: "Times New Roman", serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 10pt;
+}
+#credits .p, p {
+	color: black;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 11pt;
+	margin: 0pt;
+}
+#credits h1 {
+	color: black;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 17pt;
+}
+.s2 {
+	color: #C0504D;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 11pt;
+}
+.s3 {
+	color: #FF5050;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 11pt;
+}
+#credits a {
+	color: #00F;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+	font-size: 11pt;
+}
+.s4 {
+	color: #000;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	/*text-decoration: underline;*/
+	font-size: 11pt;
+}
+#credits h2 {
+	color: black;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 11pt;
+}
+
+
